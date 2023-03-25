@@ -4,6 +4,12 @@ import feature1 from "../assets/images/feature1.jpg";
 import feature2 from "../assets/images/feature2.jpg";
 import feature3 from "../assets/images/feature3.jpg";
 import feature4 from "../assets/images/feature4.jpg";
+
+import bulb from "../assets/images/3d_icons/bulb-iso-premium.png";
+import calculator from "../assets/images/3d_icons/calculator-iso-premium.png";
+import chart from "../assets/images/3d_icons/chart-iso-premium.png";
+import dollar from "../assets/images/3d_icons/dollar-iso-premium.png";
+
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features1 = () => {
@@ -22,28 +28,28 @@ export const Features1 = () => {
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">
-                Dolor sit amet consectutar
+                Powered by ChatGPT
               </span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
                 Unlike any tool you used before
               </h2>
               <p className="mb-10 text-customGrayText leading-loose">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque efficitur nisl sodales egestas lobortis. Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit.
+                As one of the first plugins for ChatGPT, we are able to provide
+                you with a tool that is unlike any other. We are constantly
+                improving our tool to provide you with the best experience.
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Vestibulum viverra</span>
+                  <span>Pulls data from Wallstreetbets</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Morbi mollis metus pretium</span>
+                  <span>Powered By AI</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
+                  <span>Gives you ideas</span>
                 </li>
               </ul>
             </div>
@@ -52,32 +58,36 @@ export const Features1 = () => {
             <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
                 <img
-                  src={feature1}
+                  src={bulb}
                   alt="f1"
                   className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
+                  loading="lazy"
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded ">
                 <img
-                  src={feature2}
+                  src={calculator}
                   alt="f2"
-                  className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
+                  className="rounded-xl custom-border-gray mx-auto sm:mx-unset"
+                  loading="lazy"
                 />
               </div>
             </div>
             <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
                 <img
-                  src={feature3}
+                  src={chart}
                   alt="f3"
-                  className="rounded-xl  custom-border-gray"
+                  className="rounded-xl custom-border-gray"
+                  loading="lazy"
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded-lg ">
                 <img
-                  src={feature4}
+                  src={dollar}
                   alt="f4"
-                  className="rounded-xl  custom-border-gray"
+                  className="rounded-xl custom-border-gray"
+                  loading="lazy"
                 />
               </div>
             </div>

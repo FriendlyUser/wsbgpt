@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import feature5 from "../assets/images/feature5.jpg";
 import feature6 from "../assets/images/feature6.jpg";
+import AirShip2 from "../assets/images/stability/1085210335_Massive airship floating above a sprawling metropo_xl-beta-v2-2-2.png"
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (
@@ -17,16 +18,10 @@ export const Features2 = () => (
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
             <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
               <img
-                src={feature5}
+                src={AirShip2}
                 alt="f1"
-                className="rounded-xl  custom-border-gray"
-              />
-            </div>
-            <div className="py-3 md:pl-20 lg:pl-12 md:pr-2 rounded ">
-              <img
-                src={feature6}
-                alt="f2"
-                className="rounded-xl  custom-border-gray"
+                className="rounded-xl custom-border-gray"
+                loading="lazy"
               />
             </div>
           </div>
@@ -35,28 +30,26 @@ export const Features2 = () => (
         <div className="w-full lg:w-1/2 mb-12 lg:mb-0 xl:pl-8">
           <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
             <span className="custom-block-subtitle">
-              Dolor sit amet consectutar
+              Soar above the rest
             </span>
             <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Issue tracking you’ll enjoy using
+              An advisor you will never forget
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque efficitur nisl sodales egestas lobortis. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit.
+              Provides investing advice you never knew you needed. Pulled straight from the minds of the most successful gamblers (wallstreetbets) in the world.
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Vestibulum viverra</span>
+                <span>Free to use</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Morbi mollis metus pretium</span>
+                <span>Used by the best</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>Etiam lectus nunc, commodo</span>
+                <span>Telling you what you need to know</span>
               </li>
             </ul>
           </div>

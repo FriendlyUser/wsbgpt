@@ -25,13 +25,13 @@ export const Pricing = () => {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
               <span className="custom-block-subtitle">
-                Dolor sit amet consectutar
+                If you are still here
               </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
                 Choose your best plan
               </h2>
               <p className="mb-6 text-customGrayText">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                WSB GPT is supported by a community of users like you.
               </p>
               <label className="mx-auto bg-customDarkBg3 relative flex justify-between items-center group text-xl w-44 h-12 rounded-lg pr-36 pl-1 cursor-pointer">
                 <input

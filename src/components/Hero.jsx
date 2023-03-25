@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/dashboard.jpg";
+import AirShip1 from "../assets/images/stability/338565691_Massive airship floating above a sprawling metropo_xl-beta-v2-2-2.png"
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +20,7 @@ export const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <div className="text-customSecondary text-sm sm:text-base  mb-6 sm:mt-32 mt-16  font-bold">
-            Discover new data flow
+            Discover hidden insights
           </div>
         </motion.div>
         <motion.div
@@ -28,11 +29,11 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.05 }}
         >
           <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Analytics</span>{" "}
-            <span className="hidden md:inline">Analytic tools suite</span>
+            <span className="inline md:hidden">WSB GPT Plugin</span>{" "}
+            <span className="hidden md:inline">Lose Money faster</span>
           </div>
           <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
-            for developers
+            for degenerates
           </div>
         </motion.div>
         <motion.div
@@ -41,8 +42,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48 ">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            consequat laoreet lacinia. Phasellus 
+            The best way to lose money on WallStreetBets (WSB). Get the best insights on the from ChatGpt.
           </div>
         </motion.div>
         <motion.div
@@ -72,9 +72,9 @@ export const Hero = () => {
         >
           <div className="relative w-screen flex justify-center ">
             <img
-              src={dashboard}
+              src={AirShip1}
               alt="123"
-              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl  custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
+              className="w-2/5 xl:w-[600px] mx-auto absolute z-10 rounded-xl  custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />
           </div>
         </motion.div>
