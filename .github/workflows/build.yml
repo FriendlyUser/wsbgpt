@@ -14,15 +14,3 @@ jobs:
         with:
           github_token: ${{ secrets.DEPLOY_FULL_TOKEN }}
           publish_dir: ./public
-```
-
-## 📦 Deploy
-
-```bash
-# deploy to github pages
-$ yarn deploy
-```
-
-## 📝 License
-
-[MIT](
