@@ -1,10 +1,4 @@
 import { motion } from "framer-motion";
-
-import feature1 from "../assets/images/feature1.jpg";
-import feature2 from "../assets/images/feature2.jpg";
-import feature3 from "../assets/images/feature3.jpg";
-import feature4 from "../assets/images/feature4.jpg";
-
 import bulb from "../assets/images/3d_icons/bulb-iso-premium.png";
 import calculator from "../assets/images/3d_icons/calculator-iso-premium.png";
 import chart from "../assets/images/3d_icons/chart-iso-premium.png";
@@ -60,7 +54,7 @@ export const Features1 = () => {
                 <img
                   src={bulb}
                   alt="f1"
-                  className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
+                  className="rounded-xl y mx-auto sm:mx-unset"
                   loading="lazy"
                 />
               </div>
@@ -68,7 +62,7 @@ export const Features1 = () => {
                 <img
                   src={calculator}
                   alt="f2"
-                  className="rounded-xl custom-border-gray mx-auto sm:mx-unset"
+                  className="rounded-xl y mx-auto sm:mx-unset"
                   loading="lazy"
                 />
               </div>
@@ -78,7 +72,7 @@ export const Features1 = () => {
                 <img
                   src={chart}
                   alt="f3"
-                  className="rounded-xl custom-border-gray"
+                  className="rounded-xl y"
                   loading="lazy"
                 />
               </div>
@@ -86,7 +80,7 @@ export const Features1 = () => {
                 <img
                   src={dollar}
                   alt="f4"
-                  className="rounded-xl custom-border-gray"
+                  className="rounded-xl y"
                   loading="lazy"
                 />
               </div>

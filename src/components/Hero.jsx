@@ -2,7 +2,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
-import dashboard from "../assets/images/dashboard.jpg";
 import AirShip1 from "../assets/images/stability/338565691_Massive airship floating above a sprawling metropo_xl-beta-v2-2-2.png"
 
 export const Hero = () => {
