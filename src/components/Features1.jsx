@@ -51,37 +51,41 @@ export const Features1 = () => {
           <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
             <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
               <div className="mb-4 py-3 pl-3 pr-2 rounded">
-                <img
+                <motion.img
                   src={bulb}
                   alt="f1"
                   className="rounded-xl y mx-auto sm:mx-unset"
                   loading="lazy"
+                  whileHover={{ scale: 1.1, rotate: [-5, 5, -5, 0, -5] }}
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded ">
-                <img
+                <motion.img
                   src={calculator}
                   alt="f2"
                   className="rounded-xl y mx-auto sm:mx-unset"
                   loading="lazy"
+                  whileHover={{ scale: 1.1, rotate: [-5, 5, -5, 0, -5] }}
                 />
               </div>
             </div>
             <div className="w-1/2 lg:mt-20  pt-12 lg:pt-0 px-2 hidden sm:inline-block">
               <div className="mb-4 py-3 pl-3 pr-2 rounded-lg ">
-                <img
+                <motion.img
                   src={chart}
                   alt="f3"
                   className="rounded-xl y"
                   loading="lazy"
+                  whileHover={{ scale: 1.1, rotate: [-5, 5, -5, 0, -5] }}
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded-lg ">
-                <img
+                <motion.img
                   src={dollar}
                   alt="f4"
                   className="rounded-xl y"
                   loading="lazy"
+                  whileHover={{ scale: 1.1, rotate: [-5, 5, -5, 0, -5] }}
                 />
               </div>
             </div>
